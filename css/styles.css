@@ -1,0 +1,162 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+h1 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+  margin: 5% 5%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 3rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: large;
+  font-family: 'Montserrat-light', sans-serif;
+}
+
+/* Sections */
+
+.yellow-section {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+.blue-section {
+  background-color: #0dcaf0;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+/* download buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+  color: #fff;
+}
+
+/* title */
+
+#title {
+  position: relative;
+  text-align: left;
+}
+
+
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 55%;
+  }
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+}
+/* features section */
+
+#features {
+ position: relative;
+}
+
+.icons {
+  color: #ffc107;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.icons:hover {
+  color: #0dcaf0;
+}
+
+.container-icons {
+  width: 100%;
+  padding: 0%;
+  margin: 100px auto;
+}
+
+.icons-text {
+  margin: auto;
+}
+
+/* testimonial section */
+
+#testimonials {
+ color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logos {
+  width: 15%;
+  margin: 20px 20px 50px;
+  ;
+}
+
+
+/* pricing section */
+
+.picing-column {
+  padding: 2% 2%;
+}
+
+/* call to action section */
+
+.cta-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+.footer-icons {
+  color:black;
+  margin: 10px;
+}
